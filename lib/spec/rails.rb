@@ -5,12 +5,12 @@ rescue MissingSourceFile
 end
 require 'rack/utils'
 
-require 'action_controller/test_process'
-require 'action_controller/integration'
+require 'spec/test/unit'
+
+require 'action_dispatch/testing/test_process'
+require 'action_dispatch/testing/integration'
 require 'active_support/test_case'
 require 'active_record/fixtures' if defined?(ActiveRecord::Base)
-
-require 'spec/test/unit'
 
 require 'spec/rails/matchers'
 require 'spec/rails/mocks'

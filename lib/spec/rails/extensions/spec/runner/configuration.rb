@@ -1,5 +1,5 @@
 require 'spec/runner/configuration'
-require 'test_help'
+require 'rails/test_help'
 
 if defined?(ActiveRecord::Base)
   module Spec

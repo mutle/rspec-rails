@@ -1,5 +1,3 @@
-require 'action_controller/cookies'
-
 module Spec
   module Rails
     module Example
